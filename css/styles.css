@@ -154,6 +154,7 @@ span {
 .portafolio {
   width: 100vw;
   background-color: #191c32;
+  color: #fff;
 }
 
 
@@ -178,8 +179,10 @@ span {
 
 .card {
   width: 300px;
+  color: #fff;
   height: 350px;
   background-color: cadetblue;
+  margin: 2em;
 
 }
 
@@ -234,3 +237,6 @@ span {
   justify-content: center;
   margin-top: 1em;
 }
+
+
+/* el videos quedo en 1:08:50 ahi quedo el video guia */
