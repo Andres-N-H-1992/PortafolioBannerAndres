@@ -215,6 +215,7 @@ span {
 
 }
 
+
 .Project-details {
 
   margin: 0 auto;
@@ -231,12 +232,114 @@ span {
   text-transform: uppercase;
 }
 
+
+.contact-heading {
+  font-size: 2em;
+
+}
+
+
 .Project-details-content {
   display: flex;
   width: 100%;
   justify-content: center;
   margin-top: 1em;
 }
+
+.container-contact {
+  padding: 3em;
+  margin: 0 auto;
+}
+
+
+.container-contact img {
+  width: 150px;
+  height: 700px;
+  bottom: 0px;
+
+
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2mm;
+}
+
+.form input {
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #15151d;
+}
+
+
+.form textarea {
+  height: 150px;
+  background: none;
+  color: #fff;
+  padding: 1.5em, ;
+  border: 1px solid #1515c5;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  background-color: aqua;
+
+
+}
+.footer-content h2{
+  font-size: 3em;
+
+}
+
+.footer-content h5{
+  font-size: 1.5em;
+
+}
+
+.sotial-netwerk{
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top:  1em;
+}
+
+.sotial-netwerk i{
+  font-size: 1.5em;
+}
+
+
+
+
+
 
 
 /* el videos quedo en 1:08:50 ahi quedo el video guia */
